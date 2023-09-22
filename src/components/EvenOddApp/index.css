@@ -1,0 +1,39 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #0f172a;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px;
+}
+.countis {
+  color: #334155;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+p {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 15px;
+}
+button {
+  background-color: #ffffff;
+  height: 36px;
+  width: 96px;
+  border-radius: 8px;
+  margin: 10px;
+}
